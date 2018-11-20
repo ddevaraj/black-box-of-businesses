@@ -16,6 +16,9 @@ with open('yelp_checkin.csv','r') as file:
             count += val
         business_dict[b_id] = count
 
+sorted_d = sorted((-value, key) for (key, value) in business_dict.items())
+print(sorted_d[0])
+
 with open('check_in_count.json','w') as json_file:
     json.dump(business_dict, json_file)
 
