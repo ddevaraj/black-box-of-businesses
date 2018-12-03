@@ -20,10 +20,3 @@ yelp_academic_dataset_photo.json
 yelp_academic_dataset_review.json
 yelp_academic_dataset_tip.json
 ```
-
-#### Implementation:
-
-
-
-
-#### Results:
